@@ -10,6 +10,9 @@ No server and no database: all data is stored in the browser with `localStorage`
 > This README is for the team: how the repo is organised, who does what, and the names we all use.
 > It is not the project report.
 
+> ⚠️ **Shared names — read sections 5 and 6 before writing any code.**
+> Our pages use the same data (trips, bookings) and the same storage functions. Use **exactly** the names, fields and formats listed there: don't rename, don't change a format, never call `localStorage` directly. Need a new shared name? Ask the group first, then add it here.
+
 ---
 
 ## 1. Team
