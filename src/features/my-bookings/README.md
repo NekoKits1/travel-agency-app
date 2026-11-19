@@ -1,6 +1,6 @@
 # My bookings
 - URL: `/my-bookings`
-- Coded by: Member C
+- Coded by: Member D · checked by Member A
 - Task list: issue #9
 - Variable and function names: README, section 6
 

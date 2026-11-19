@@ -1,6 +1,6 @@
 # Catalogue + search and filters
 - URL: `/trips`
-- Coded by: Member B
+- Coded by: Member B · checked by Member C
 - Task list: issue #6
 - Variable and function names: README, section 6
 

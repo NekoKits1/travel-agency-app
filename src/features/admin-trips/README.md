@@ -1,6 +1,6 @@
 # Manage trips
 - URL: `/admin/trips`
-- Coded by: Member D
+- Coded by: Member D · checked by Member A
 - Task list: issue #11
 - Variable and function names: README, section 6
 

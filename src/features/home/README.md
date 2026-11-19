@@ -1,6 +1,6 @@
 # Home
 - URL: `/`
-- Coded by: Member A
+- Coded by: Member A · checked by Member B
 - Task list: issue #5
 - Variable and function names: README, section 6
 

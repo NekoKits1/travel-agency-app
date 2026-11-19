@@ -6,10 +6,10 @@ Code used only by one page stays in its folder; code used by two pages or more g
 |---|---|---|---|---|
 | `home/` | Home | `/` | Member A | #5 |
 | `catalogue/` | Catalogue + search and filters | `/trips` | Member B | #6 |
-| `trip-detail/` | Trip detail | `/trips/:id` | Member B | #7 |
+| `trip-detail/` | Trip detail | `/trips/:id` | Member C | #7 |
 | `booking/` | Booking form | `/trips/:id/book` | Member C | #8 |
-| `my-bookings/` | My bookings | `/my-bookings` | Member C | #9 |
-| `admin-login/` | Admin login | `/admin/login` | Member D | #10 |
+| `my-bookings/` | My bookings | `/my-bookings` | Member D | #9 |
+| `admin-login/` | Admin login | `/admin/login` | Member C | #10 |
 | `admin-trips/` | Manage trips | `/admin/trips` | Member D | #11 |
-| `admin-bookings/` | Manage bookings | `/admin/bookings` | Member C | #12 |
+| `admin-bookings/` | Manage bookings | `/admin/bookings` | Member B | #12 |
 | `admin-dashboard/` | Dashboard | `/admin/dashboard` | Member A | #13 |

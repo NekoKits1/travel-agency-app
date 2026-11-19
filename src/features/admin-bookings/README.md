@@ -1,6 +1,6 @@
 # Manage bookings
 - URL: `/admin/bookings`
-- Coded by: Member C
+- Coded by: Member B · checked by Member C
 - Task list: issue #12
 - Variable and function names: README, section 6
 

@@ -1,6 +1,6 @@
 # Admin login
 - URL: `/admin/login`
-- Coded by: Member D
+- Coded by: Member C · checked by Member D
 - Task list: issue #10
 - Variable and function names: README, section 6
 
