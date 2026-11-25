@@ -193,6 +193,26 @@ Nobody uses `localStorage` directly: always go through these.
 
 ## 6. Pages and their names
 
+### Page files and routes
+
+Each page already exists as an almost empty file with its route: open your file and replace the title with your page.
+**Never rename a file or a route name alone** — other pages link to them. To link to a page, use its route name:
+`router.push({ name: 'trip-detail', params: { id: trip.id } })` or `<RouterLink :to="{ name: 'catalogue' }">`.
+
+| Page | URL | Route name | File | Owner |
+|---|---|---|---|---|
+| Home | `/` | `home` | `features/home/HomePage.vue` | Nancy |
+| Catalogue | `/trips` | `catalogue` | `features/catalogue/CataloguePage.vue` | Wissem |
+| Trip page | `/trips/:id` | `trip-detail` | `features/trip-detail/TripDetailPage.vue` | Audrey |
+| Booking form | `/trips/:id/book` | `booking` | `features/booking/BookingPage.vue` | Audrey |
+| My bookings | `/my-bookings` | `my-bookings` | `features/my-bookings/MyBookingsPage.vue` | Amine |
+| Admin login | `/admin/login` | `admin-login` | `features/admin-login/AdminLoginPage.vue` | Audrey |
+| Manage trips | `/admin/trips` | `admin-trips` | `features/admin-trips/AdminTripsPage.vue` | Amine |
+| Manage bookings | `/admin/bookings` | `admin-bookings` | `features/admin-bookings/AdminBookingsPage.vue` | Wissem |
+| Dashboard | `/admin/dashboard` | `admin-dashboard` | `features/admin-dashboard/AdminDashboardPage.vue` | Nancy |
+
+The routes are in `src/router/index.js` (Audrey). `App.vue` shows the current page with `<RouterView />`.
+
 ### Customer side
 
 **Home** — `/` — `features/home/`
