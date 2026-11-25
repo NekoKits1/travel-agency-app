@@ -1,0 +1,31 @@
+# CI: checks every pull request on a fresh machine (team doc, section 9).
+# A red cross means a step failed: click "Details" to read the error.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Download the code of the pull request
+      - uses: actions/checkout@v5
+
+      # 2. Install Node.js 22 (same as our computers)
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      # 3. Install exactly the versions in package-lock.json
+      - run: npm ci
+
+      # 4. Check the code, without fixing it (mistakes must be reported)
+      - run: npx oxlint .
+      - run: npx eslint .
+
+      # 5. Build the site: fails if a page or an import is broken
+      - run: npm run build
