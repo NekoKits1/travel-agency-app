@@ -372,3 +372,18 @@ The routes are in `src/router/index.js` (Audrey). `App.vue` shows the current pa
 - _Cannot find native binding_ → your Node is too old: update it (step 1), then delete `node_modules` and `package-lock.json` and run `npm install`.
 - _Missing script_ → check the spelling (`npm run build`, not `built`) and that you are in the project folder.
 - Any other error: copy the full message in the group before changing anything.
+
+
+## By waiting for the real storage.js...
+```
+// TEMPORARY — when issue #2 is merged, replace this list with:
+// import { getTrips } from '@/services/storage.js'
+const trips = [
+  {
+    id: 'trip-001', title: '7 days in Lisbon', destination: 'Lisbon', country: 'Portugal',
+    category: 'city', price: 890, durationDays: 7, startDate: '2027-04-10', endDate: '2027-04-17',
+    placesAvailable: 12, image: '/images/lisbon.jpg', description: 'Discover Lisbon…',
+  },
+  // + 2 or 3 more trips in the same format (other categories, prices, dates) to test the filters
+]
+```
