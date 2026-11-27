@@ -1,0 +1,57 @@
+/* Charte graphique : Coastal (frais, calme, fiable)
+   Seul fichier où les couleurs et polices sont définies. */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+
+:root {
+  /* Couleurs */
+  --color-primary: #0e5e6f;
+  --color-primary-dark: #0a4753;
+  --color-accent: #f4a259;
+  --color-accent-dark: #e08a3c;
+  --color-background: #f8f6f1;
+  --color-surface: #ffffff;
+  --color-text: #1e2a32;
+  --color-text-muted: #5b6b74;
+  --color-border: #dcd8cf;
+  --color-white: #ffffff;
+  --color-danger: #b3261e;
+  --color-danger-dark: #8c1d18;
+
+  /* Statuts des réservations */
+  --status-pending-bg: #faeeda;
+  --status-pending-text: #633806;
+  --status-confirmed-bg: #eaf3de;
+  --status-confirmed-text: #27500a;
+  --status-cancelled-bg: #fceaea;
+  --status-cancelled-text: #791f1f;
+
+  /* Polices */
+  --font-title: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Tailles de texte */
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --text-2xl: 2.5rem;
+
+  /* Espacements */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+
+  /* Forme */
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 2px 8px rgba(30, 42, 50, 0.08);
+  --shadow-hover: 0 6px 18px rgba(30, 42, 50, 0.14);
+
+  /* Mise en page */
+  --container-width: 1120px;
+  --navbar-height: 64px;
+}
