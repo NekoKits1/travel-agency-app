@@ -374,8 +374,7 @@ The routes are in `src/router/index.js` (Audrey). `App.vue` shows the current pa
 - Any other error: copy the full message in the group before changing anything.
 
 
-## By waiting for the real storage.js.... 
-
+## By waiting for the real storage.js...
 ```
 // TEMPORARY — when issue #2 is merged, replace this list with:
 // import { getTrips } from '@/services/storage.js'
